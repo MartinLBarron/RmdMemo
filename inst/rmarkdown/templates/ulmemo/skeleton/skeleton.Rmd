@@ -1,0 +1,24 @@
+---
+To: "Tom"
+From: "Bob"
+Subject: "Your Brains"
+Date: "March 24, 2006"
+IncludeLogo: true 
+output: 
+  pdf_document:
+    template: template.tex 
+papersize: letter
+fontsize: 11pt
+documentclass: article
+geometry: margin=1in
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Heya Tom, it's Bob from the office down the hall. It's good to see you buddy, how've you been? Things have been OK for me except that I'm a zombie now. I really wish you'd let us in. I think I speak for all of us when I say I understand. Why you folks might hesitate to submit to our demand. But here's an FYI: you're all gonna die screaming.
+
+All we want to do is eat your brains. We're not unreasonable, I mean, no one's gonna eat your eyes. All we want to do is eat your brains.We're at an impasse here, maybe we should compromise: If you open up the doors, we'll all come inside and eat your brains.
+
