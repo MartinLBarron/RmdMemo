@@ -23,11 +23,11 @@ Change the Header of your document to reflect your document. You can replace the
 
 ## Acknowledgment
 
-The base latex template is built off of [https://github.com/dr-harper/example-rmd-templates]Mike Harper's example template.  Inspiration for the latex memo format came from [https://www.latextemplates.com/template/memo]this template originaly created by Rob Oakes.
+The base latex template is built off of[Mike Harper's](https://github.com/dr-harper/example-rmd-templates) example template.  Inspiration for the latex memo format came from [this](https://www.latextemplates.com/template/memo) template originaly created by Rob Oakes.
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (It basically says: do what you want with this but don't blame me if it doesn't work.)
+This project is licensed under the MIT License - see the [license](LICENSE) file for details. (It basically says: do what you want with this but don't blame me if it doesn't work.)
 
 
