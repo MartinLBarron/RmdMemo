@@ -4,14 +4,13 @@ From: "Bob"
 Subject: "Your Brains"
 Date: "March 24, 2006"
 IncludeLogo: true 
-output: 
+output:
   pdf_document:
     template: template.tex 
 papersize: letter
 fontsize: 11pt
 documentclass: article
 geometry: margin=1in
-
 ---
 
 ```{r setup, include=FALSE}
