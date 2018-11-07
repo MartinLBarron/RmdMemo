@@ -1,16 +1,16 @@
 ---
-To: "Tom"
-From: "Bob"
-Subject: "Your Brains"
-Date: "March 24, 2006"
-IncludeLogo: true 
+To: Tom
+From: Bob
+Subject: Your Brains
+Date: March 24, 2006
 output:
   pdf_document:
     template: template.tex 
 papersize: letter
 fontsize: 11pt
-documentclass: article
 geometry: margin=1in
+IncludeLogo: true 
+AdjustLogoV: -1.0
 ---
 
 ```{r setup, include=FALSE}

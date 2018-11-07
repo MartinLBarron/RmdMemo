@@ -1,11 +1,13 @@
 Package: RmdMemo
 Type: Package
-Title: Creates R Markdown Memo Template
+Title: Creates pdf Memos using R Markdown
 Version: 0.2.0
 Author: Martin Barron
 Maintainer: Martin Barron <Martin@Barron.cc>
-Description: Creates a Latex template to format R Markdown documents 
-    as a basic memo.
+Description: This package includes a single template to create a
+    pdf memo using R Markdown.  After installation, Rstudio will show
+    a new template under File -> New File -> R Markdown -> From Template
+    entitled "Memo." 
 License: MIT
 Encoding: UTF-8
 LazyData: true
