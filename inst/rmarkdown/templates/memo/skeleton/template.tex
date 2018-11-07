@@ -1,4 +1,4 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{article}
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
@@ -160,11 +160,14 @@ $endfor$
 \begin{document}
 
 
+
 	\begin{minipage}{1\columnwidth}%
 		\begin{flushright}
-			\vspace{-1in}
+			$if(AdjustLogoV)$
+			\vspace{$AdjustLogoV$in}
+			$endif$
 			$if(IncludeLogo)$
-        \includegraphics[width=2in]{PlaceholderLogo}
+        \includegraphics[width=2in]{Logo}
       $endif$
 
 			\vspace{-0.5in}
